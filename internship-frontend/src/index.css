@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+.container {
+  display:flex;
+  justify-content:center;
+  background-color: rgb(253, 251, 122);
+}
+
+.interruptions-main {
+  display: flex;
+  flex-direction: column;
+}
+.welcome {
+  padding: 20px
+}
+
+.mytable {
+  border: 1px solid;
+  margin: 20px;
+}
+.mytable td {
+  border: 1px solid;
+  padding: 5px;
+}
+
+
+.rbuttons {
+  border-radius: 20px;
+  height: 40px;
+  min-width: 80px;
+}
+.card {
+  background: linear-gradient(#fdfcf8,#f7d8cd);
+}
+
+.welcometext {
+  color:crimson;
+  font-size: 22px;
+  text-justify: center;
+  font-weight: 400;
+}
+
+.weltext {
+  color:rgb(29, 27, 27);
+  font-size: 18px;
+  justify-content: center;
+  align-items: center;
+  font-weight: 300;
+}
+
+
+.mytext {
+  color:rgb(29, 27, 27);
+  font-size: 22px;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+}
+
+.login-form {
+  display:flex;
+  flex-direction: column;
+  background: linear-gradient(#f7ca1a,#f16b3a);
+  padding: 20px;
+  width: 50%;
+  margin-right:-10px;
+}
+
+.form-label {
+  width: 200px;
+}
+
+.btn-dark {
+  height: 40px;
+  width: 150px;
+  border-radius: 20px;
+  margin-left: 300px;
+}
+
+.hline {
+  display: flex;
+  flex-direction: column;
+  justify-items:center;
+  width: 70%;
+}
+
+.plot-page {
+  display:flex;
+  flex-direction: column;
+  gap: 5px;
+}

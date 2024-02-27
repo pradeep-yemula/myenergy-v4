@@ -1,0 +1,62 @@
+body{
+  background: url('images/MacBook\ Pro\ 14_\ -\ 1.svg') fixed center no-repeat ;
+  background-size: cover;
+  background-size: auto;
+  background-color: rgba(0,0,0,0.25);
+}
+.form-control{
+  border: 1px solid black !important;
+  background-color: rgb(255, 255, 255) !important;
+}
+.contain{
+  max-width: 100%;
+}
+#Nav{
+  border-bottom: 0.5px solid black;
+  margin-bottom: 10px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+@media screen and (max-width : 992px) {
+  .card{
+    width: 40rem !important;
+  }
+}
+@media screen and (max-width : 690px) {
+  .card{
+    width: 30rem !important;
+  }
+}
+@media screen and (max-width : 578px) {
+  .card{
+    width: 20rem !important;
+  }
+  #buttons{
+    display: flex !important;
+  flex-direction: column !important;
+  flex-wrap: wrap !important;
+  justify-content: center !important;
+  align-items: center !important;
+  }
+  .media{
+    width: 20rem !important;
+  }
+}
+@media screen and (max-width : 327px){
+  .media{
+    width: 15rem !important;
+  }
+  .card{
+    width: 13rem !important;
+  }
+}
+
+.container{
+  margin-top: 80px !important;
+}
+
+.main{
+  height: 20vh;
+}
